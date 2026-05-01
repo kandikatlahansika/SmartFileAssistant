@@ -1,2 +1,20 @@
-# SmartFileAssistant
-A Smart File Assistant using Streamlit is a simple web app that lets users upload files and interact with them using AI. It can extract content, summarize documents, and answer questions based on file data, making file management and information retrieval fast and easy.
+# Smart File AI Assistant
+
+An AI-powered document assistant that allows users to upload files and ask questions, summarize content, and extract key information.
+
+## Features
+- Upload PDF, DOCX, TXT files
+- Ask questions about documents
+- Summarize content
+- Modern colorful UI
+
+## Technologies Used
+- Python (Flask)
+- Groq API
+- ChromaDB
+- HTML, CSS, JavaScript
+
+## How to Run
+
+pip install -r requirements.txt  
+python app.py

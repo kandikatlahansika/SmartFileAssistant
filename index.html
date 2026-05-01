@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart File Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="sidebar">
+        <h2>✨ Smart File Assistant</h2>
+
+        <div class="upload-card">
+            <input type="file" id="fileInput">
+            <button onclick="uploadFile()">Upload File</button>
+            <p id="uploadStatus"></p>
+        </div>
+
+        <div class="info-card">
+            <h3>📌 About</h3>
+            <p>
+                Upload your documents and ask questions instantly.
+                This assistant can summarize content, explain topics,
+                and retrieve important information from your files.
+            </p>
+
+            <h3>📂 Supported Files</h3>
+            <ul>
+                <li>PDF Documents</li>
+                <li>DOCX Files</li>
+                <li>TXT Files</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div id="chatBox" class="chat-box"></div>
+
+        <div class="input-area">
+            <input type="text" id="messageInput" placeholder="Ask about your document...">
+            <button onclick="sendMessage()">➤</button>
+        </div>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
